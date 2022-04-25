@@ -1,0 +1,502 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #DDC9B4;
+    margin: 0;
+}
+
+#parent_container {
+    background-color: #DDC9B4;
+    font-family: 'Raleway', sans-serif;
+}
+
+#logo {
+    width: 100%;
+    height: 60vw;
+    background-color: #373538;
+}
+
+#seconday_page_logo {
+    width: 100%;
+    height: 60vw;
+    background-color: #373538;
+}
+
+nav {
+    padding-top: 3vw;
+    list-style: none;
+    text-align: center;
+    background-color: #a57b42;
+ 
+}
+
+.link {
+    display: inline-block;
+    padding: 3vw;
+    padding-top: 0.1vw;
+    font-size: 1.5rem;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+}
+nav a:visited {
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:focus {
+    text-decoration: underline;
+}
+
+#bitcoin_image {
+    background-image: url("img/bitcoin.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+
+#bitcoin_image h1 {
+    color: white;
+    position: relative;
+    top: 20vw;
+    font-size: 3rem;
+}
+
+#bitcoin_image h2 {
+    color: white;
+    position: relative;
+    top: 20vw;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#bitcoin_image h4 {
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 1.6rem;
+    padding-left: 1vw;
+
+}
+
+.border_container {
+    position: relative;
+    border-style: solid;
+    border-color:white;
+    top: 20vw;
+    padding: 1vw;
+    margin: 0 auto;
+    width: 16vw;
+}
+
+#bitcoin_image .performance_container {
+    display: flex;
+    color: white;
+    position: relative;
+    justify-content: center;
+    font-size: 3rem;
+    
+}
+
+.p2 {
+    color: white;
+    position: relative;
+    top: 30vw;
+    text-align: center;
+    border-style: solid;
+    font-size: 2rem;
+    margin: 0 auto;
+    width: 40vw;
+}
+
+#bitcoin_image a {
+    text-decoration: none;
+}
+#bitcoin_image a:visited {
+    color: white;
+}
+
+.p2:hover {
+    border-color: #a57b42;
+}
+
+.p2:focus {
+    border-color: #a57b42;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 5vw;
+}
+
+#logo2 {
+    width: 100%;
+    height: 100%;
+    background-color: #373538;
+}
+
+#footer_text {
+    background-color: #a57b42;
+}
+#footer_text .p3 {
+    text-align: center;
+    padding-top: 3vw;
+}
+
+.p4 {
+    text-align: center;
+    font-size: 1.2rem;
+    background: #373538;
+    color: white;
+    background-position: center;
+    margin: 0 auto;
+    width: 28vw;
+}
+
+#footer_text a {
+    text-decoration: none;
+}
+#footer_text a:visited {
+    color: white;
+}
+
+.p4:hover {
+    background: #DDC9B4;
+}
+
+.p4:focus {
+    background: #DDC9B4;
+}
+
+#footer_text a {
+    display: block;
+}
+
+
+/* Advisors HTML Page */
+
+
+#card1 {
+    width: 100%;
+    text-align: center;
+}
+
+#advisor_row1 {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+#advisor_col1 {
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+
+#advisor_col2 {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+
+#advisor_card1 {
+    background-color: #a57b42;
+}
+
+#advisor_card2 {
+    background-color: #a57b42;
+}
+
+#advisor_card1 a {
+    text-decoration: none;
+    display: block;
+}
+#advisor_card1 a:visited {
+    color: white;
+}
+
+#advisor_card2 a {
+    text-decoration: none;
+    display: block;
+}
+#advisor_card2 a:visited {
+    color: white;
+}
+
+.p4:hover {
+    background: #DDC9B4;
+}
+
+.p4:focus {
+    background: #DDC9B4;
+}
+
+#prakki_image {
+    background-color: #373538;
+}
+
+#svg_arrow {
+    display: flex;
+    width: 3rem;
+    color: white;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.375rem;
+    background-color: #a57b42
+}
+
+.svg_container {
+    padding-left: 5vw;
+    
+}
+
+.flex_container {
+    display:flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+#svg_correlating_p{
+    padding-left: 3vw;
+}
+
+
+/* Pricing */
+
+#pricing_row1 {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+#pricing_col1 {
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+
+#pricing_col2 {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+#pricing_card1 {
+    border-color: #373538;
+    border-width: 1vw;
+}
+
+#pricing_card1 a {
+    text-decoration: none;
+    display: block;
+}
+#pricing_card1 a:visited {
+    color: white;
+}
+
+#pricing_card2 {
+    border-color: #a57b42;
+    border-width: 1vw;
+}
+
+
+#pricing_card2 a {
+    text-decoration: none;
+    display: block;
+}
+#pricing_card2 a:visited {
+    color: white;
+}
+
+/* Contact */
+
+#contact_parent_container{
+    background-color: #DDC9B4;
+    padding-bottom: 10vw;
+}
+
+#seconday_page_logo {
+    background-color: #373538;
+}
+.form_container {
+    padding-top: 10vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.form {
+    padding-top: 2vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    background-color: #373538;
+}
+
+
+label {
+    padding-bottom: 3vw;
+    color: white;
+}
+
+input {
+    width: 86vw;
+}
+
+
+.contact_p3 {
+    text-align: center;
+    padding-top: 9vw;
+}
+
+.submit:hover {
+    background: #DDC9B4;
+    border-color: #DDC9B4;
+}
+
+.submit:focus {
+    background: #DDC9B4;
+    border-color: #DDC9B4;
+}
+
+.submit {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    background: #a57b42;
+    background-position: center;
+    margin: 0 auto;
+    width: 28vw;
+    border-color: #a57b42;
+}
+
+@media screen and (min-width: 700px) {
+    header {
+        display: flex;
+    }
+
+    #seconday_page_logo {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        object-fit: cover;
+        
+    }
+      
+    header div{
+        width: 40%;
+        height: 100%;
+        text-align: left;
+        padding: 3vw 3vw 5vw 3vw;
+        background-color: #a57b42;
+    }
+    #logo {
+        width: 100%;
+        height: 10%;
+    }
+    nav {
+        width: 100%;
+        text-align: right;
+    }
+
+    #footer_image {
+        width: 30%;
+    }
+
+    #footer_text {
+        width: 70%;
+        font-size: 1.5rem;
+    }
+
+    #prakki_image {
+        width: 50%;
+        height: auto;
+        text-align: center;
+    }
+   
+    .svg_container {
+        padding-left: 23vw;
+        
+    }
+
+    #svg_correlating_p {
+        padding-right: 20vw;
+    }
+}
+
+@media screen and (max-width: 631px) {
+    .border_container {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 343px) {
+    #bitcoin_image h1 {
+        font-size: 2rem;
+    }
+
+    #bitcoin_image h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 287px) {
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .p4 {
+        font-size: 0.9rem;
+    }
+
+    .submit {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 303px) {
+    .border_container {
+        width: 37vw;
+    }
+
+    .p2 {
+        width: 55vw;
+    }
+
+}
+
+@media screen and (max-width: 237px) {
+    .border_container {
+        width: 40vw;
+    }
+
+    .p2 {
+        width: 58vw;
+    }
+}
+
+@media screen and (max-width: 224px) {
+    #bitcoin_image h1 {
+        font-size: 1.6rem;
+    }
+
+    #bitcoin_image h2 {
+        font-size: 1.1rem;
+    }
+
+    .border_container {
+        width: 42vw;
+    }
+
+    .p2 {
+        width: 60vw;
+    }
+}
