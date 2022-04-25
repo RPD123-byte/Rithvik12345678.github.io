@@ -42,6 +42,11 @@ nav {
 nav a {
     text-decoration: none;
 }
+
+nav a:link {
+    color: black;
+}
+
 nav a:visited {
     color: black;
 }
@@ -120,6 +125,11 @@ nav a:visited {
 #bitcoin_image a {
     text-decoration: none;
 }
+
+#bitcoin_image a:link {
+    color: white;
+}
+
 #bitcoin_image a:visited {
     color: white;
 }
@@ -168,6 +178,11 @@ h2 {
 #footer_text a {
     text-decoration: none;
 }
+
+#footer_text a:link {
+    color: white;
+}
+
 #footer_text a:visited {
     color: white;
 }
@@ -221,6 +236,11 @@ h2 {
     text-decoration: none;
     display: block;
 }
+
+#advisor_card1 a:link {
+    color: white;
+}
+
 #advisor_card1 a:visited {
     color: white;
 }
@@ -229,6 +249,11 @@ h2 {
     text-decoration: none;
     display: block;
 }
+
+#advisor_card2 a:link {
+    color: white;
+}
+
 #advisor_card2 a:visited {
     color: white;
 }
@@ -298,6 +323,11 @@ h2 {
     text-decoration: none;
     display: block;
 }
+
+#pricing_card1 a:link {
+    color: white;
+}
+
 #pricing_card1 a:visited {
     color: white;
 }
@@ -312,9 +342,15 @@ h2 {
     text-decoration: none;
     display: block;
 }
+
+#pricing_card2 a:link {
+    color: white;
+}
+
 #pricing_card2 a:visited {
     color: white;
 }
+
 
 /* Contact */
 
