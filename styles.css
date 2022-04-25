@@ -44,7 +44,7 @@ nav a {
 }
 
 nav a:link {
-    color: black;
+    color: black !important;
 }
 
 nav a:visited {
@@ -127,7 +127,7 @@ nav a:visited {
 }
 
 #bitcoin_image a:link {
-    color: white;
+    color: white !important;
 }
 
 #bitcoin_image a:visited {
@@ -180,7 +180,7 @@ h2 {
 }
 
 #footer_text a:link {
-    color: white;
+    color: white !important;
 }
 
 #footer_text a:visited {
@@ -238,7 +238,7 @@ h2 {
 }
 
 #advisor_card1 a:link {
-    color: white;
+    color: white !important;
 }
 
 #advisor_card1 a:visited {
@@ -251,7 +251,7 @@ h2 {
 }
 
 #advisor_card2 a:link {
-    color: white;
+    color: white !important;
 }
 
 #advisor_card2 a:visited {
@@ -325,7 +325,7 @@ h2 {
 }
 
 #pricing_card1 a:link {
-    color: white;
+    color: white !important;
 }
 
 #pricing_card1 a:visited {
@@ -344,7 +344,7 @@ h2 {
 }
 
 #pricing_card2 a:link {
-    color: white;
+    color: white !important;
 }
 
 #pricing_card2 a:visited {
