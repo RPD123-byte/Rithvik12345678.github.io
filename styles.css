@@ -43,12 +43,13 @@ nav a {
     text-decoration: none;
 }
 
-nav a:link {
-    color: black !important;
-}
 
 nav a:visited {
     color: black;
+}
+
+nav a:link {
+    color: black !important;
 }
 
 .link:hover {
@@ -126,12 +127,12 @@ nav a:visited {
     text-decoration: none;
 }
 
-#bitcoin_image a:link {
-    color: white !important;
-}
-
 #bitcoin_image a:visited {
     color: white;
+}
+
+#bitcoin_image a:link {
+    color: white !important;
 }
 
 .p2:hover {
@@ -179,12 +180,12 @@ h2 {
     text-decoration: none;
 }
 
-#footer_text a:link {
-    color: white !important;
-}
-
 #footer_text a:visited {
     color: white;
+}
+
+#footer_text a:link {
+    color: white !important;
 }
 
 .p4:hover {
@@ -237,25 +238,24 @@ h2 {
     display: block;
 }
 
-#advisor_card1 a:link {
-    color: white !important;
-}
-
 #advisor_card1 a:visited {
     color: white;
 }
 
+#advisor_card1 a:link {
+    color: white !important;
+}
 #advisor_card2 a {
     text-decoration: none;
     display: block;
 }
 
-#advisor_card2 a:link {
-    color: white !important;
-}
-
 #advisor_card2 a:visited {
     color: white;
+}
+
+#advisor_card2 a:link {
+    color: white !important;
 }
 
 .p4:hover {
