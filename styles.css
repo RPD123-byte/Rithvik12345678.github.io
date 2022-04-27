@@ -17,7 +17,11 @@ html, body {
     background-color: #373538;
 }
 
-#seconday_page_logo {
+#secondary_page_logo:focus {
+    background-color: #373538;
+}
+
+#secondary_page_logo {
     width: 100%;
     height: 60vw;
     background-color: #373538;
@@ -362,9 +366,6 @@ h2 {
     padding-bottom: 10vw;
 }
 
-#seconday_page_logo {
-    background-color: #373538;
-}
 .form_container {
     padding-top: 10vw;
     padding-left: 4vw;
@@ -420,7 +421,7 @@ input {
         display: flex;
     }
 
-    #seconday_page_logo {
+    #secondary_page_logo {
         width: 100%;
         height: 100%;
         display: block;
