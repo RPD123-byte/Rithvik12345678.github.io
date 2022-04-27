@@ -56,7 +56,7 @@ nav a:link {
     text-decoration: underline;
 }
 
-.link:focus {
+.link:focus-within {
     text-decoration: underline;
 }
 
@@ -135,13 +135,16 @@ nav a:link {
     color: white !important;
 }
 
+.p2:focus-within {
+    border-color: #a57b42;
+    
+}
+
 .p2:hover {
     border-color: #a57b42;
 }
 
-.p2:focus {
-    border-color: #a57b42;
-}
+
 
 h1 {
     text-align: center;
@@ -192,7 +195,7 @@ h2 {
     background: #DDC9B4;
 }
 
-.p4:focus {
+.p4:focus-within {
     background: #DDC9B4;
 }
 
@@ -262,7 +265,7 @@ h2 {
     background: #DDC9B4;
 }
 
-.p4:focus {
+.p4:focus-within {
     background: #DDC9B4;
 }
 
@@ -396,7 +399,7 @@ input {
     border-color: #DDC9B4;
 }
 
-.submit:focus {
+.submit:focus-within {
     background: #DDC9B4;
     border-color: #DDC9B4;
 }
